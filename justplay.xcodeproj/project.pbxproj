@@ -15,13 +15,13 @@
 		BDB1F2411AB2D03200A51486 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB1F2401AB2D03200A51486 /* Game.swift */; };
 		BDDFEEC31AB26E9F00FAA8C4 /* CAGradientLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDFEEC21AB26E9F00FAA8C4 /* CAGradientLayerExtension.swift */; };
 		BDDFEEC61AB27CB000FAA8C4 /* transparentWhiteUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDFEEC51AB27CB000FAA8C4 /* transparentWhiteUIButton.swift */; };
+		BDE527351AB2D79600022E2B /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE527341AB2D79600022E2B /* PlayViewController.swift */; };
 		BDED39131AB15284005E0A59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED39121AB15284005E0A59 /* AppDelegate.swift */; };
 		BDED39181AB15284005E0A59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDED39161AB15284005E0A59 /* Main.storyboard */; };
 		BDED391A1AB15284005E0A59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDED39191AB15284005E0A59 /* Images.xcassets */; };
 		BDED391D1AB15284005E0A59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDED391B1AB15284005E0A59 /* LaunchScreen.xib */; };
 		BDED39291AB15285005E0A59 /* justplayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED39281AB15285005E0A59 /* justplayTests.swift */; };
 		BDED39351AB154CF005E0A59 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED39341AB154CF005E0A59 /* DashboardViewController.swift */; };
-		BDED39391AB15580005E0A59 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED39381AB15580005E0A59 /* PlayViewController.swift */; };
 		BDED393B1AB17422005E0A59 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED393A1AB17422005E0A59 /* WalletViewController.swift */; };
 		BDED393D1AB174E4005E0A59 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED393C1AB174E4005E0A59 /* BankViewController.swift */; };
 		BDED393F1AB179E3005E0A59 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDED393E1AB179E3005E0A59 /* Wallet.swift */; };
@@ -50,6 +50,7 @@
 		BDB1F2401AB2D03200A51486 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		BDDFEEC21AB26E9F00FAA8C4 /* CAGradientLayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayerExtension.swift; sourceTree = "<group>"; };
 		BDDFEEC51AB27CB000FAA8C4 /* transparentWhiteUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = transparentWhiteUIButton.swift; sourceTree = "<group>"; };
+		BDE527341AB2D79600022E2B /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		BDED390D1AB15284005E0A59 /* justplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = justplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDED39111AB15284005E0A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDED39121AB15284005E0A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		BDED39271AB15285005E0A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDED39281AB15285005E0A59 /* justplayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = justplayTests.swift; sourceTree = "<group>"; };
 		BDED39341AB154CF005E0A59 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
-		BDED39381AB15580005E0A59 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayViewController.swift; path = ../PlayViewController.swift; sourceTree = "<group>"; };
 		BDED393A1AB17422005E0A59 /* WalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
 		BDED393C1AB174E4005E0A59 /* BankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
 		BDED393E1AB179E3005E0A59 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
@@ -134,9 +134,9 @@
 				BDED39421AB18B14005E0A59 /* PointsProtocol.swift */,
 				BDED393E1AB179E3005E0A59 /* Wallet.swift */,
 				BDED39441AB18B52005E0A59 /* PointBank.swift */,
+				BDE527341AB2D79600022E2B /* PlayViewController.swift */,
 				BDED39461AB18BF3005E0A59 /* Account.swift */,
 				BDB1F2401AB2D03200A51486 /* Game.swift */,
-				BDED39381AB15580005E0A59 /* PlayViewController.swift */,
 				BDB1F2341AB2B97200A51486 /* GameTableViewCell.swift */,
 				BDED393A1AB17422005E0A59 /* WalletViewController.swift */,
 				BDED393C1AB174E4005E0A59 /* BankViewController.swift */,
@@ -283,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDED393F1AB179E3005E0A59 /* Wallet.swift in Sources */,
+				BDE527351AB2D79600022E2B /* PlayViewController.swift in Sources */,
 				BDB1F2411AB2D03200A51486 /* Game.swift in Sources */,
 				BDDFEEC31AB26E9F00FAA8C4 /* CAGradientLayerExtension.swift in Sources */,
 				BDED39451AB18B52005E0A59 /* PointBank.swift in Sources */,
@@ -291,7 +292,6 @@
 				BDED39411AB183E0005E0A59 /* WalletProtocol.swift in Sources */,
 				BDED39471AB18BF3005E0A59 /* Account.swift in Sources */,
 				BDB1F2351AB2B97200A51486 /* GameTableViewCell.swift in Sources */,
-				BDED39391AB15580005E0A59 /* PlayViewController.swift in Sources */,
 				BDED393D1AB174E4005E0A59 /* BankViewController.swift in Sources */,
 				BDDFEEC61AB27CB000FAA8C4 /* transparentWhiteUIButton.swift in Sources */,
 				BDED39431AB18B14005E0A59 /* PointsProtocol.swift in Sources */,
